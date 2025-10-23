@@ -4,33 +4,71 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <title>Launch Page Tutorial</title>
 
+        <!-- BOOTSTRAP -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-        </head>
-    <body>
+        <!-- BOOTSTRAP THEME -->
+        <link rel="stylesheet" href="https://bootswatch.com/5/darkly/bootstrap.min.css">
+        <!-- CUSTOM STYLES -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
 
-        <!-- NAVBAR -->
-            <nav class="navbar navbar-light bg-light">
+    <body>
+        <div class="container">
+
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-light">
                 <a class="navbar-brand" href="#">Launch Page</a>
-                <div class="navbar-nav">
+                <div class="navbar-nav nav">
                     <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="#">Features</a>
                     <a class="nav-item nav-link" href="#">Pricing</a>
                 </div>
             </nav>
 
-        <!-- HERO -->
+            <!-- HERO -->
+            <div class="jumbotron text-center pt-5">
+                <h1>Launch Page</h1>
+                <p class="lead">A Fantastic Product!</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
 
-        <h1>Launch Page</h1>
+            <!-- BENEFITS -->
+            <div class="container mb-5 mt-5 pb-5 pt-5">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h3>Safe</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Healthy</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Fun</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                </div>
+            </div>
 
+            <!-- CALL TO ACTION -->
+            <div class="jumbotron text-center mb-0">
+                <p class="lead mb-4">Sign Up for More Infomation</p>
+                <div class="d-flex justify-content-center">
+                    <form action="#" class="form-inline">
+                        <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Email"/>
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                    </form>
+                </div>
+            </div>
 
-        <!-- BENEFITS -->
-
-
-        <!-- CALL TO ACTION -->
-
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+            <!-- FOOTER -->
+            <div class="bg-secondary p-5 text-white">
+                &copy; 2019 Launch Page Inc
+            </div>
+                        
+        </div>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </body>
 </html>
